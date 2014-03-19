@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @dad.title %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @dad.image_url %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dad.description %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @dad.tags %>
+</p>
+
+<%= link_to 'Edit', edit_dad_path(@dad) %> |
+<%= link_to 'Back', dads_path %>
